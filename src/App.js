@@ -34,7 +34,9 @@ class App extends Component {
         "https://graph.microsoft.com/v1.0/me/events?$select=subject,body,bodyPreview,organizer,attendees,start,end,location";
       try {
         const response = await fetch(endpoint, {
-          headers: { Authorization: `Bearer ${accessToken}` }
+          headers: {
+            Authorization: `Bearer ${accessToken}`
+          }
         });
         if (!response.ok) {
           throw new Error(

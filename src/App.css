@@ -34,4 +34,9 @@
 .events_container {
   border: 2px grey solid;
   margin: 20px;
+  background: lightgrey;
+}
+
+.events_container:hover {
+  background: lightslategray;
 }
