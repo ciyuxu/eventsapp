@@ -1,3 +1,22 @@
+## EventsAPP About
+Web application helping people to see what events are taking place at certain location. The front-end was built using React. The back-end is using Outlook API (https://msdn.microsoft.com/en-us/office/office365/api/calendar-rest-operations).
+
+
+
+## Run it locally
+
+Make sure you have [NodeJS](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed.
+
+```bash
+git clone https://github.com/ciyuxu/eventsapp.git
+cd eventsapp
+npm install
+npm start
+```
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>

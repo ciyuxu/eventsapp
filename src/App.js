@@ -20,6 +20,9 @@ function getNonce() {
   return nonce;
 }
 
+var date = new Date();
+var now = date.toLocaleString();
+
 class App extends Component {
   constructor(props) {
     super(props);
@@ -100,6 +103,8 @@ class App extends Component {
         <div className="container main-container">
           <div id="signin-prompt" className="jumbotron page">
             <h1>Events APP</h1>
+            <h2>{now}</h2>
+
             {/* <p>
               This example shows how to get an OAuth token from Azure using the
               <a href="https://azure.microsoft.com/en-us/documentation/articles/active-directory-v2-protocols-implicit/">
